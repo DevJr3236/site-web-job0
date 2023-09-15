@@ -41,6 +41,23 @@ nav a img {
 
 
 @media only screen and (max-width: 800px) {
+	.team-profil-img img {
+    border-radius: 5%;
+    width: 100% !important;
+    height: 25%;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+	.team-profil-titre {
+    position: relative;
+    margin-top: 0%;
+}
+.team-profil-titre-nom {
+    margin-left: 0px;
+}
+.team-profil-titre-biographie {
+    margin-left: 0;
+}
 	form#contact-form input.form-control.submit {
     width: 200px;
 }
@@ -91,14 +108,15 @@ margin-left: 50px;
     margin-right: 50px;
 	margin-top: 50px;
 	}
-	.team-profil {
+.team-profil {
     margin-left: 0px;
     font-family: Century Gothic;
     margin-right: 0px;
     padding: 0px 20px;
-	width: 87%;
-	    margin: 90px auto 0px;
+    width: auto;
+    margin: 90px auto 0px;
 }
+
 .team-profil-titre p {
     font-size: 13px;
     position: relative;
@@ -145,6 +163,31 @@ label {
        width: 10%;
 	       text-align: right;
     font-size: 30px;
+}
+#logo-acc {
+    margin-top: 6%;
+    display: inline-block;
+    margin-left: 0px;
+}
+.slider-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+img.slide {
+    height: 260px;
+}
+body #logo {
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #fff;
+}
+div#main-slider {
+    width: 92%;
+    margin: 20px 4%;
+}
+img.slide {
+    width: 100%;
 }
 }
 
