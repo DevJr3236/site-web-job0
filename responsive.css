@@ -194,6 +194,27 @@ img.slide {
     margin-left: 0%;
     padding: 0px 4%;
 }
+body.publication-index .container {
+    width: 100% !important;
+    display: block;
+    margin-top: 65px;
+
+}
+.publication-index .container .box {
+    width: 290px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+    background: none;
+    text-align: center;
+}
+.publication-index .container .box .imgBox img {
+    margin-bottom: 20px;
+	    margin-top: 30px;
+
+}
+
+
 }
 
 @media only screen and (max-width: 700px) 
@@ -258,6 +279,8 @@ img.slide {
 
 
 @media only screen and (max-width: 485px){
+	
+	
 	.menu-projets {
     width: 100%;
     margin: 65px 0px 0px 0px;
@@ -266,5 +289,10 @@ img.slide {
 .team-profil-titre h1 {
     font-size: 24px;
 }
+}
+
+@media only screen and (max-width: 400px){
+
+
 }
 /**********Responsive CSS*********/
