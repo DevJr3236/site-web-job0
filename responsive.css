@@ -41,6 +41,7 @@ nav a img {
 
 
 @media only screen and (max-width: 800px) {
+
 	.team-profil-img img {
     border-radius: 5%;
     width: 100% !important;
@@ -90,9 +91,10 @@ form#contact-form input, form#contact-form textarea {
     margin: 0px 0px;
 }
 .menu-projets-menu {
-    margin-left: 50px;
-    margin-right: 50px;
+      margin-left: 0px;
+    margin-right: 0px;
     margin-top: 65px;
+    padding: 0px 20px;
 }
 .menu-projets-menu img {
     padding: 0px;
@@ -165,9 +167,14 @@ label {
     font-size: 30px;
 }
 #logo-acc {
-    margin-top: 6%;
+    margin-top: 5%;
     display: inline-block;
-    margin-left: 0px;
+    margin-left: 2%;
+}
+#logo-acc img {
+    width: 120px;
+    margin-left: 10px;
+    height: auto;
 }
 .slider-wrapper {
     width: 100%;
@@ -175,7 +182,7 @@ label {
     margin: 0px;
 }
 img.slide {
-    height: 270px;
+    height: 260px;
 }
 body #logo {
     margin-top: 0%;
