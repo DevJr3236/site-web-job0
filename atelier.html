@@ -1,333 +1,127 @@
-/**********Responsive CSS*********/
-@media only screen and (max-width: 800px) and (min-width: 640px) {
-body nav {
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html>
+<head>
 
-.menu {
-    text-align: left;
-    display: none;
-    margin-top: 50px;
-}
-#logo {
-    display: none;
-}
-body .content-atelier {
-    margin-top: 55px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#toggle:checked + .menu {
-    display: block;
-}
-.logo-fix {
-    display: block;
-}
-nav a img {
-    margin-left: 42px;
-}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 
-.texte {
-    margin-right: 0%;
-}
-.content-atelier {
-    width: 87%;
-}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-}
+	<title>AAAG - Atelier d'architecture Abdelhakim Guilmi</title>
 
+	<link rel="stylesheet" href="css.css"/>
+<link rel="stylesheet" href="responsive.css"/>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-@media only screen and (max-width: 800px) {
+</head>
 
-	.team-profil-img img {
-    border-radius: 5%;
-    width: 100% !important;
-    height: 25%;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-}
-	.team-profil-titre {
-    position: relative;
-    margin-top: 0%;
-}
-.team-profil-titre-nom {
-    margin-left: 0px;
-}
-.team-profil-titre-biographie {
-    margin-left: 0;
-}
-	form#contact-form input.form-control.submit {
-    width: 200px;
-}
-	.contact-titre-adresse, .Contact-us{
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px 20px;
-}
-.contact-titre-adresse p {
-    margin: 25px 0px;
-}
-.contact-titre-adresse h2 {
-    text-align: center;
-}
- .Contact-us h3 {
-	     margin-left: 0px;
-    margin-right: 0px;
- }
-.Follow h3 {
-    padding: 0px 20px;
-}
-form#contact-form input, form#contact-form textarea {
-    width: 100%;
-}
-#contact-form {
-    padding: 0px 20px;
-}
-.contact-form, #contact-form , .Follow, .Follow h3{
-    width: 100%;
-    margin: 0px 0px;
-}
-.menu-projets-menu {
-      margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 65px;
-    padding: 0px 20px;
-}
-.menu-projets-menu img {
-    padding: 0px;
-    width: 100%;
-    height: auto;
-}
-.menu-projets img {
-    width: 100%;
-    height: auto;
-}
-	.menu-projets {
-margin-left: 50px;
-    margin-right: 50px;
-	margin-top: 50px;
-	}
-.team-profil {
-    margin-left: 0px;
-    font-family: Century Gothic;
-    margin-right: 0px;
-    padding: 0px 20px;
-    width: auto;
-    margin: 90px auto 0px;
-}
+<body>
 
-.team-profil-titre p {
-    font-size: 13px;
-    position: relative;
-    margin-right: 0px;
-    text-align: justify;
-}
-	#toggle:checked + .menu {
-    display: block;
-    width: 100%;
-}
+	<div id="logo">
+        <a href="index.html"><img src="img/Logo AAAG.png" alt="Logo AAAG" width="220px" height="75px" /></a>
+    </div>
 
-nav a img {
-    padding-top: 20px;
+<nav>
+
+	<a href="index.html" class="logo-fix"><img src="img/Logo AAAG.png" width="120px" height="41px"/></a>
+    	<label for="toggle">&#9776;</label>
+    	<input type="checkbox" id="toggle"/>
+		<div class="menu">
 	
-}
-	label {
-    width: 10%;
-    font-size: 30px;
-}
-.logo-fix {
-    display: inline-block !important;
-    width: 85%;
-}
-.logo-fix {
-    display: block;
-}
-body nav {
-	    top: 0;
-    margin-top: 0px;
-	    z-index: 999;
+	<ul>
+		<div class="pointer">
+		<a href="atelier.html"><li> L'ATELIER</a></li></div>
+			<ul>
+				<div class="pointer-s"><a href="atelier.html"><li>Presentation</a></li></div>
 
-}
-body nav ul {
-    width: 100%;
-}
-#toggle:checked + .menu {
-    margin-top: 15px;
-}
-label {
-	    right: 6px;
-	    position: relative;
-    top: -8px;
-	    display: inline-block;
-       width: 10%;
-	       text-align: right;
-    font-size: 30px;
-}
-#logo-acc {
-    margin-top: 5%;
-    display: inline-block;
-    margin-left: 2%;
-}
-#logo-acc img {
-    width: 120px;
-    margin-left: 10px;
-    height: auto;
-}
-.slider-wrapper {
-    width: 100%;
-    max-width: 100%;
-    margin: 0px;
-}
-img.slide {
-    height: 260px;
-}
-body #logo {
-    margin-top: 0%;
-    margin-left: 0%;
-    background-color: #fff;
-}
-div#main-slider {
-    width: 92%;
-    margin: 20px 4%;
-}
-img.slide {
-    width: 100%;
-}
-.content-atelier img {
-    width: 92%;
-    margin-left: 0%;
-    padding: 0px 4%;
-}
-body.publication-index .container {
-    width: 100% !important;
-    display: block;
-    margin-top: 65px;
-
-}
-.publication-index .container .box {
-    width: 290px;
-    height: auto;
-    margin: 0px auto;
-    display: block;
-    background: none;
-    text-align: center;
-}
-.publication-index .container .box .imgBox img {
-    margin-bottom: 20px;
-	    margin-top: 30px;
-
-}
-body .content-atelier {
-    margin-top: 65px;
-}
-.texte h2 {
-    margin-top: 15px !important;
-}
-	.texte p {
-    margin-left: 0%;
-	margin-bottom:20px;
-}
-}
-
-@media only screen and (max-width: 700px) 
-{
-	.texte p {
-    margin-left: 0%;
-	margin-bottom:20px;
-}
-	.texte h2 {
-    margin-left: 0%;
-}
-	.menu {
-    text-align: left;
-    display: none;
-    margin-top: 22px;
-    margin-bottom: 22px;
-}
-
-
-}
-@media only screen and (max-width: 640px) and (min-width: 470px){
-	.content-atelier {
-    width: 100%;
-    margin: 0;
-    margin-top: 50px;
-}
-
-}
-@media only screen and (max-width: 470px){
-
-.image {
-    margin-top: 10%;
-}
-
-}
-@media only screen and (max-width: 1024px) and (min-width: 800px) {
-	.team-profil-titre p {
-    font-size: 13px;
-    position: relative;
-    margin-right: 0px;
-    text-align: justify;
-}
-.team-profil {
-    margin-left: 250px !important;
-}
-.texte {
-    margin-right: 0%;
-}
-}
-@media only screen and (max-width: 640px){
-.team-profil-titre h1 {
-    font-size: 30px;
-}
-.team-profil-img img {
-    border-radius: 5%;
-    width: 69%;
-    height: 25%;
-    margin-left: 5%;
-    margin-top: 5%;
-}
-
-}
-
-
-@media only screen and (max-width: 485px){
+				<a href="team/Abdelhakim-Guilmi.html"><li>About</a></li>
+			</ul>
 	
+			<a href="projets/index.html"><li>PROJECTS</a></li>
+
+		<a href="publications/index.html"><li>PUBLICATIONS</a></li>
+		<a href="contact.html"><li>CONTACT</a></li>
+	</ul>
+	</div>
+
+</nav>
+
+<div class="content-atelier">
+	<div class="wrap-oo">
+	<div class="image">
+		
+		<img src="img/IMG_4759.JPG" width="400px" height=""><br>
+	</div>
+
+
+	<div class="texte">
+		<h2>PRESENTATION</h2>
+
+		<p>BACK TO BASICS…<br><br>
+The architectural workshop Abdelhakim Guilmi - AAAG was founded by architect Abdelhakim Guilmi in 2005.<br>
+
+Abdelhakim Guilmi is a native of Belgium. Graduated with honors from the Faculty of Architecture Lambert Lombard, University of Liège in 2002 and then began a Master in Landscape at the University of Granada in Spain. This awarded him his Master with honors.<br>
+
+Anxious to take part in the economic development that Morocco, it creates its own structure by providing platforms work abroad, they aim to permanent exchange of knowledge and skills. <br><br>
+
+Further accentuated by the occasional assistance of foreign and other consultants such as Ney + Partners, LVEP, etc partners. This synergy takes momentum towards quality architecture without borders.<br>
+
+Installed since its beginnings in the heart of Marrakech, the AAAG office operates both on national and international level projects (UAE, Qatar, Kuwait, Equatorial Guinea, Burkina Faso, Niger, Nigeria and Ivory Coast)
+</p>
+
+
+</div></div>
+
+
+
+<div class="wrap-oo">
+	<div class="image">
+		
+		<img src="img/123456.JPG" width="400px"><br>
+	</div>
 	
-	.menu-projets {
-    width: 100%;
-    margin: 65px 0px 0px 0px;
-    padding: 20px 20px;
-}
-.team-profil-titre h1 {
-    font-size: 24px;
-}
-}
-
-@media only screen and (max-width: 400px){
+<div class="texte">
+		<h2>PHILOSOPHY</h2>
 
 
-}
+<p>
+Each project is originally the result of a reflection vis-a-vis a context, whether it be geographical, climatic, topographical or cultural, against the expectations of a Client, or even in relation to themes, valuable to us, such as transparency / opacity, shadow / light, space scenography, reinterpreting details of vernacular architecture, etc.<br><br>
 
-.content-atelier {
-	display: block;
-}
-.image {
-    margin-top: 0;
-}
-.texte {
-    margin-top: 0px;
-}
-.texte h2 {
-    margin-top: 0px;
-}
-@media only screen and (min-width: 800px){
+In a second time, a series of aspects are taken into account in carrying out projects in order to provide consistency and maximum viability to each of them. This requires orientation, views, materials and colors, volume sets, perspectives, fluidity, relationship to the garden, etc.<br>
 
-.wrap-oo {
-    display: inline-flex;
-}
-}
-/**********Responsive CSS*********/
+Finally, the chief idea of philosophy targeted by AAAG lay on complementarily and the continuous reflection in terms of architectural and technical discussions between the partners within the office and the different partnerships with foreign architects. If a project can be studied by an individual, it will always be challenged by the association in order to improve quality, to limit the automatisms and aim innovation.<br><br>
+
+
+The workshop develops reflections on the integration of architectural programs involved in their urban context or environment.<br>
+
+
+The office designs projects of various programming: single-family housing, housing plans, renovations, master planning and interventions within historical sites (Medina, wall…etc.), tourism projects (resorts, guest houses…etc.), and many issues for property development.<br>
+
+
+The project design is hinged on a dialogue with project management and the establishment of a multidisciplinary team applied to the specific program to develop (design office, surveyor, landscape architect, planner, etc.).
+<br><br>
+
+We consider ourselves in a situation of exchange in order to establish a climate of mutual trust. <br>
+
+
+Our 3D layouts, assemblies "photorealistic" regularly presented allon a fast and effective understanding of the evolution of the project. These tools allow clear presentations to the Client and to always have a master and a full understanding of the realization of his project.
+
+</p>	
+
+</div>
+</div>
+
+</div>
+
+
+
+	
+</div>
+</body>
+</html>
