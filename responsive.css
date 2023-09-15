@@ -1,0 +1,222 @@
+/**********Responsive CSS*********/
+@media only screen and (max-width: 800px) and (min-width: 640px) {
+body nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+}
+
+.menu {
+    text-align: left;
+    display: none;
+    margin-top: 50px;
+}
+#logo {
+    display: none;
+}
+body .content-atelier {
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#toggle:checked + .menu {
+    display: block;
+}
+.logo-fix {
+    display: block;
+}
+nav a img {
+    margin-left: 42px;
+}
+
+.texte {
+    margin-right: 0%;
+}
+.content-atelier {
+    width: 87%;
+}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+	form#contact-form input.form-control.submit {
+    width: 200px;
+}
+	.contact-titre-adresse, .Contact-us{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 20px;
+}
+.contact-titre-adresse p {
+    margin: 25px 0px;
+}
+.contact-titre-adresse h2 {
+    text-align: center;
+}
+ .Contact-us h3 {
+	     margin-left: 0px;
+    margin-right: 0px;
+ }
+.Follow h3 {
+    padding: 0px 20px;
+}
+form#contact-form input, form#contact-form textarea {
+    width: 100%;
+}
+#contact-form {
+    padding: 0px 20px;
+}
+.contact-form, #contact-form , .Follow, .Follow h3{
+    width: 100%;
+    margin: 0px 0px;
+}
+.menu-projets-menu {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 65px;
+}
+.menu-projets-menu img {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+.menu-projets img {
+    width: 100%;
+    height: auto;
+}
+	.menu-projets {
+margin-left: 50px;
+    margin-right: 50px;
+	margin-top: 50px;
+	}
+	.team-profil {
+    margin-left: 0px;
+    font-family: Century Gothic;
+    margin-right: 0px;
+    padding: 0px 20px;
+	width: 87%;
+	    margin: 90px auto 0px;
+}
+.team-profil-titre p {
+    font-size: 13px;
+    position: relative;
+    margin-right: 0px;
+    text-align: justify;
+}
+	#toggle:checked + .menu {
+    display: block;
+    width: 100%;
+}
+
+nav a img {
+    padding-top: 20px;
+	
+}
+	label {
+    width: 10%;
+    font-size: 30px;
+}
+.logo-fix {
+    display: inline-block !important;
+    width: 85%;
+}
+.logo-fix {
+    display: block;
+}
+body nav {
+	    top: 0;
+    margin-top: 0px;
+	    z-index: 999;
+
+}
+body nav ul {
+    width: 100%;
+}
+#toggle:checked + .menu {
+    margin-top: 15px;
+}
+label {
+	    right: 6px;
+	    position: relative;
+    top: -8px;
+	    display: inline-block;
+       width: 10%;
+	       text-align: right;
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 700px) 
+{
+	.texte p {
+    margin-left: 0%;
+}
+	.texte h2 {
+    margin-left: 0%;
+}
+	.menu {
+    text-align: left;
+    display: none;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+
+}
+@media only screen and (max-width: 640px) and (min-width: 470px){
+	.content-atelier {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+}
+
+}
+@media only screen and (max-width: 470px){
+
+.image {
+    margin-top: 10%;
+}
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+	.team-profil-titre p {
+    font-size: 13px;
+    position: relative;
+    margin-right: 0px;
+    text-align: justify;
+}
+.team-profil {
+    margin-left: 250px !important;
+}
+.texte {
+    margin-right: 0%;
+}
+}
+@media only screen and (max-width: 640px){
+.team-profil-titre h1 {
+    font-size: 30px;
+}
+.team-profil-img img {
+    border-radius: 5%;
+    width: 69%;
+    height: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+}
+
+
+@media only screen and (max-width: 485px){
+	.menu-projets {
+    width: 100%;
+    margin: 65px 0px 0px 0px;
+    padding: 20px 20px;
+}
+.team-profil-titre h1 {
+    font-size: 24px;
+}
+}
+/**********Responsive CSS*********/

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <div id="logo">
+
+  <a href="atelier.html"><img src="img/Logo AAAG.png" title="Enter Website" alt="Logo AAAG" width="220px" height="75px" ></a>
+
+  </div>
+
+    <div id="logo-acc">
+
+  <a href="atelier.html"><img src="img/Logo AAAG.png" title="Enter Website" alt="Logo AAAG" width="220px" height="75px" ></a>
+
+  </div>
+      <title>AAAG - Atelier d'architecture Abdelhakim Guilmi</title>
+
+      <link rel="stylesheet" href="css.css"/>
+
+
+
+    </head>
+
+
+<script>
+  (function () {
+  function Slideshow(element) {
+    this.el = document.querySelector(element);
+    this.init();
+  }
+  Slideshow.prototype = {
+    init: function () {
+      this.wrapper = this.el.querySelector(".slider-wrapper");
+      this.slides = this.el.querySelectorAll(".slide");
+      this.previous = this.el.querySelector(".slider-previous");
+      this.next = this.el.querySelector(".slider-next");
+      this.index = 0;
+      this.total = this.slides.length;
+      this.timer = null;
+
+      this.action();
+      this.stopStart();
+    },
+    _slideTo: function (slide) {
+      var currentSlide = this.slides[slide];
+      currentSlide.style.opacity = 1;
+
+      for (var i = 0; i < this.slides.length; i++) {
+        var slide = this.slides[i];
+        if (slide !== currentSlide) {
+          slide.style.opacity = 0;
+        }
+      }
+    },
+    action: function () {
+      var self = this;
+      self.timer = setInterval(function () {
+        self.index++;
+        if (self.index == self.slides.length) {
+          self.index = 0;
+        }
+        self._slideTo(self.index);
+      }, 9000);
+    },
+    stopStart: function () {
+      var self = this;
+      self.el.addEventListener(
+        "mouseover",
+        function () {
+          clearInterval(self.timer);
+          self.timer = null;
+        },
+        false
+      );
+      self.el.addEventListener(
+        "mouseout",
+        function () {
+          self.action();
+        },
+        false
+      );
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var slider = new Slideshow("#main-slider");
+  });
+})();
+
+</script>
+
+
+    <body>
+
+<div class="slider" id="main-slider" >
+  <!-- outermost container element -->
+  <div class="slider-wrapper" title="Enter Website" >
+    <!-- innermost wrapper element -->
+    <img src="img/img101.jpg" class="slide" /><!-- slides -->
+    <img src="img/img104.jpg" alt="" class="slide" />
+    <img src="img/25.jpg" alt="" class="slide" />
+    <img src="img/img105.jpg" alt="" class="slide" />
+    <img src="img/img108.jpg" alt="" class="slide" />
+    <img src="img/img110.jpg" alt="" class="slide" />
+    <img src="img/img111.jpg" alt="" class="slide" />
+    <img src="img/img100.jpg" alt="" class="slide" />
+    <img src="img/img114.jpg" alt="" class="slide" />
+    <img src="img/img102.jpg" alt="" class="slide" />
+    <img src="img/img103.jpg" alt="" class="slide" />
+    <img src="img/img106.jpg" alt="" class="slide" />
+    <img src="img/img107.jpg" alt="" class="slide" />
+    <img src="img/2.jpg" alt="" class="slide" />
+    <img src="img/5.jpg" alt="" class="slide" />
+    <img src="img/9.jpg" alt="" class="slide" />
+    <img src="img/10.jpg" alt="" class="slide" />
+    <img src="img/12.jpg" alt="" class="slide" />
+    <img src="img/13.jpg" alt="" class="slide" />
+    <img src="img/14.jpg" alt="" class="slide" />
+    <img src="img/18.jpg" alt="" class="slide" />
+    <img src="img/19.jpg" alt="" class="slide" />
+
+  </div>
+</div>
+
+    <footer id="footer">
+    <P>© Copyright 2023 AAAG INTERNATIONAL</P>  
+    </footer>
+
+    
+</body>
+  </html>
+
+  
