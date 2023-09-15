@@ -189,6 +189,11 @@ div#main-slider {
 img.slide {
     width: 100%;
 }
+.content-atelier img {
+    width: 92%;
+    margin-left: 0%;
+    padding: 0px 4%;
+}
 }
 
 @media only screen and (max-width: 700px) 
