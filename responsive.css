@@ -94,7 +94,7 @@ form#contact-form input, form#contact-form textarea {
       margin-left: 0px;
     margin-right: 0px;
     margin-top: 65px;
-    padding: 28px 15px;
+    padding: 20px 15px;
 }
 
 .menu-projets-menu img {
@@ -232,20 +232,17 @@ body .content-atelier {
 	margin-bottom:25px;
 }
 .menu-projets-menu h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-top: 38px;
+font-size: 22px;
+    margin-bottom: 105px;
+    margin-top: 10px;
     font-weight: 500;
     margin-left: 0px;
-    text-align: right;
-    width: 55%;
-    float: right;
 }
 .desc-photog {
     position: absolute;
-    top: 12px;
+    top: 62px;
     left: 17px;
-    width: 45%;
+    width: 100%;
 }
 }
 
