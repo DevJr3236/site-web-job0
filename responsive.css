@@ -10,7 +10,6 @@ body nav {
 .menu {
     text-align: left;
     display: none;
-    margin-top: 50px;
 }
 #logo {
     display: none;
@@ -41,6 +40,39 @@ nav a img {
 
 
 @media only screen and (max-width: 800px) {
+	.menu-projets {
+    width: 90% !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 20px 5% 20px 6% !important;
+}
+.contenu {
+    display: block;
+}	
+	body nav {
+    position: relative !important;
+	}
+.menu {
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+	    display: block !important;
+}
+
+#toggle:checked + .menu {
+    margin-top: 15px;
+    height: 280px;
+}
+.mid-nav #toggle:checked + .menu {
+    margin-top: 15px;
+    height: 190px;
+}
+.contact-titre-adresse {
+    margin-top: 10px;
+}
+.short-nav #toggle:checked + .menu {
+    margin-top: 15px;
+    height: 142px;
+}
 
 	.team-profil-img img {
     border-radius: 5%;
@@ -71,7 +103,7 @@ nav a img {
     margin: 25px 0px;
 }
 .contact-titre-adresse h2 {
-    text-align: center;
+    text-align: left;
 }
  .Contact-us h3 {
 	     margin-left: 0px;
@@ -93,7 +125,7 @@ form#contact-form input, form#contact-form textarea {
 .menu-projets-menu {
       margin-left: 0px;
     margin-right: 0px;
-    margin-top: 65px;
+    margin-top: 0px;
     padding: 20px 15px;
 }
 
@@ -117,7 +149,7 @@ margin-left: 50px;
     margin-right: 0px;
     padding: 0px 20px;
     width: auto;
-    margin: 90px auto 0px;
+    margin: 20px auto 0px;
 }
 
 .team-profil-titre p {
@@ -156,7 +188,7 @@ body nav ul {
     width: 100%;
 }
 #toggle:checked + .menu {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 label {
 	    right: 6px;
@@ -205,7 +237,7 @@ img.slide {
 body.publication-index .container {
     width: 100% !important;
     display: block;
-    margin-top: 65px;
+    margin-top: 0px;
 
 }
 .publication-index .container .box {
@@ -217,12 +249,12 @@ body.publication-index .container {
     text-align: center;
 }
 .publication-index .container .box .imgBox img {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 	    margin-top: 30px;
-
 }
-body .content-atelier {
-    margin-top: 80px;
+.publication-index .container .box .imgBox h4 {
+    margin-top: 5px;
+    font-size: 14px;
 }
 .texte h2 {
     margin-top: 15px !important;
@@ -255,8 +287,7 @@ font-size: 22px;
 	.menu {
     text-align: left;
     display: none;
-    margin-top: 22px;
-    margin-bottom: 22px;
+	margin: 0px !important;
 }
 
 
@@ -336,7 +367,9 @@ font-size: 22px;
     margin-top: 0px;
 }
 @media only screen and (min-width: 800px){
-
+.index-home nav {
+    display: none;
+}
 .wrap-oo {
     display: inline-flex;
 }
